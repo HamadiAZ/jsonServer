@@ -1,87 +1,264 @@
 {
-  
-  "client": {
-    "structure": [
-      "id",
-      "categoryParent",
-      "Adresse",
-      "Code postal",
-      "ville",
-      "Pays",
-      "UTC/GMT",
-      "Profil_Liaison"
-    ],
-    "data": [
-      {
-        "id": 1,
-        "cate": "A",
-        "categoryParent": "A2",
-        "Code postal": "44200",
-        "ville": "Nantes",
-        "Pays": "France",
-        "UTC/GMT": "Europe/Paris",
-        "Profil_Liaison": "Kessler, Von and Vandervort",
-        "subRows": [
-          {
-            "id": 2,
-            "cate": "B",
-            "categoryParent": "A",
-            "Code postal": "44200",
-            "ville": "Nantes",
-            "Pays": "France",
-            "UTC/GMT": "Europe/Paris",
-            "Profil_Liaison": "Kessler, Von and Vandervort",
-            "subRows": [
-              {
-                "id": 3,
-                "cate": "A",
-                "categoryParent": "C",
-                "Code postal": "44200",
-                "ville": "Nantes",
-                "Pays": "France",
-                "UTC/GMT": "Europe/Paris",
-                "Profil_Liaison": "Kessler, Von and Vandervort",
-                "subRows": [
-                  {
-                    "id": 4,
-                    "cate": "dernier",
-                    "categoryParent": "D",
-                    "Code postal": "44200",
-                    "ville": "Nantes",
-                    "Pays": "France",
-                    "UTC/GMT": "Europe/Paris",
-                    "Profil_Liaison": "Kessler, Von and Vandervort",
-                    "subRows": [
-                      {
-                        "id": 5,
-                        "cate": "A",
-                        "categoryParent": "E",
-                        "Code postal": "44200",
-                        "ville": "Nantes",
-                        "Pays": "France",
-                        "UTC/GMT": "Europe/Paris",
-                        "Profil_Liaison": "Kessler, Von and Vandervort",
-                        "subRows": []
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "Société": "A2",
-        "Adresse": 41,
-        "Code postal": null,
-        "ville": "Sơn Tây",
-        "Pays": "Vietnam",
-        "UTC/GMT": "Asia/Ho_Chi_Minh",
-        "Profil_Liaison": "Leannon, Schroeder and Yundt",
-        "subRows": [{}, {}, {}, {}, {}]
-      }
-    ]
-  }
+  "client": [
+    {
+      "id": 1,
+      "nomEtd": "Hendrik",
+      "prenomEtd": "Richly",
+      "dateNaissanceEtd": "2003-12-09",
+      "adresseMailEtd": "hrichly0@wordpress.com",
+      "idGroupe": 1,
+      "idDepartement": 1,
+      "numInscription": "5acb6cd9-7048-4c4f-a62a-9e9b93ddabdb",
+      "dateInscription": "2022-01-10",
+      "au": 1,
+      "photoEtd": "http://dummyimage.com/159x100.png/dddddd/000000"
+    },
+    {
+      "id": 2,
+      "nomEtd": "Darin",
+      "prenomEtd": "Layzell",
+      "dateNaissanceEtd": "2002-07-20",
+      "adresseMailEtd": "dlayzell1@ustream.tv",
+      "idGroupe": 2,
+      "idDepartement": 2,
+      "numInscription": "d060633e-7568-4ce5-8ad2-1f37312ac48a",
+      "dateInscription": "2022-01-09",
+      "au": 2,
+      "photoEtd": "http://dummyimage.com/139x100.png/dddddd/000000"
+    },
+    {
+      "id": 3,
+      "nomEtd": "Blanche",
+      "prenomEtd": "Jagels",
+      "dateNaissanceEtd": "2004-08-22",
+      "adresseMailEtd": "bjagels2@ehow.com",
+      "idGroupe": 3,
+      "idDepartement": 3,
+      "numInscription": "fa079828-1ba1-4e4b-be66-f06ba9be80c1",
+      "dateInscription": "2022-01-10",
+      "au": 3,
+      "photoEtd": "http://dummyimage.com/152x100.png/dddddd/000000"
+    },
+    {
+      "id": 4,
+      "nomEtd": "Liane",
+      "prenomEtd": "Thewles",
+      "dateNaissanceEtd": "2002-10-23",
+      "adresseMailEtd": "lthewles3@oaic.gov.au",
+      "idGroupe": 4,
+      "idDepartement": 4,
+      "numInscription": "1115ec27-1718-46d3-a5c1-5cb22e2e16d5",
+      "dateInscription": "2022-01-10",
+      "au": 4,
+      "photoEtd": "http://dummyimage.com/226x100.png/5fa2dd/ffffff"
+    },
+    {
+      "id": 5,
+      "nomEtd": "Jaime",
+      "prenomEtd": "Heaney",
+      "dateNaissanceEtd": "2004-04-17",
+      "adresseMailEtd": "jheaney4@plala.or.jp",
+      "idGroupe": 5,
+      "idDepartement": 5,
+      "numInscription": "60d01c97-d47f-4c47-8bf9-a8b50608aeb1",
+      "dateInscription": "2022-01-10",
+      "au": 5,
+      "photoEtd": "http://dummyimage.com/236x100.png/dddddd/000000"
+    },
+    {
+      "id": 6,
+      "nomEtd": "Carmelita",
+      "prenomEtd": "Pantlin",
+      "dateNaissanceEtd": "2000-08-31",
+      "adresseMailEtd": "cpantlin5@weibo.com",
+      "idGroupe": 6,
+      "idDepartement": 6,
+      "numInscription": "7db8b2e5-b1a2-4f9b-b988-89241fd9702a",
+      "dateInscription": "2022-01-10",
+      "au": 6,
+      "photoEtd": "http://dummyimage.com/167x100.png/cc0000/ffffff"
+    },
+    {
+      "id": 7,
+      "nomEtd": "Elston",
+      "prenomEtd": "Kiley",
+      "dateNaissanceEtd": "2005-03-06",
+      "adresseMailEtd": "ekiley6@facebook.com",
+      "idGroupe": 7,
+      "idDepartement": 7,
+      "numInscription": "45ea1f79-e06f-4409-a0c1-56d632ccdadf",
+      "dateInscription": "2022-01-10",
+      "au": 7,
+      "photoEtd": "http://dummyimage.com/169x100.png/dddddd/000000"
+    },
+    {
+      "id": 8,
+      "nomEtd": "Skye",
+      "prenomEtd": "Bignell",
+      "dateNaissanceEtd": "2003-12-21",
+      "adresseMailEtd": "sbignell7@diigo.com",
+      "idGroupe": 8,
+      "idDepartement": 8,
+      "numInscription": "133680cc-c761-4f8d-a048-b2c342086559",
+      "dateInscription": "2022-01-09",
+      "au": 8,
+      "photoEtd": "http://dummyimage.com/193x100.png/5fa2dd/ffffff"
+    },
+    {
+      "id": 9,
+      "nomEtd": "Chevy",
+      "prenomEtd": "Gebuhr",
+      "dateNaissanceEtd": "2002-11-03",
+      "adresseMailEtd": "cgebuhr8@behance.net",
+      "idGroupe": 9,
+      "idDepartement": 9,
+      "numInscription": "fb2e4854-ac74-4145-9701-84e2bc644b24",
+      "dateInscription": "2022-01-10",
+      "au": 9,
+      "photoEtd": "http://dummyimage.com/104x100.png/dddddd/000000"
+    },
+    {
+      "id": 10,
+      "nomEtd": "Ingra",
+      "prenomEtd": "Vankin",
+      "dateNaissanceEtd": "2004-07-05",
+      "adresseMailEtd": "ivankin9@guardian.co.uk",
+      "idGroupe": 10,
+      "idDepartement": 10,
+      "numInscription": "a24172c6-2840-4183-a8bb-ad1d9cec171a",
+      "dateInscription": "2022-01-09",
+      "au": 10,
+      "photoEtd": "http://dummyimage.com/157x100.png/5fa2dd/ffffff"
+    },
+    {
+      "id": 11,
+      "nomEtd": "Elicia",
+      "prenomEtd": "Levensky",
+      "dateNaissanceEtd": "2000-10-01",
+      "adresseMailEtd": "elevenskya@people.com.cn",
+      "idGroupe": 11,
+      "idDepartement": 11,
+      "numInscription": "39895fa1-f919-4fbe-a55f-668651b137c0",
+      "dateInscription": "2022-01-09",
+      "au": 11,
+      "photoEtd": "http://dummyimage.com/206x100.png/5fa2dd/ffffff"
+    },
+    {
+      "id": 12,
+      "nomEtd": "Martyn",
+      "prenomEtd": "Mandy",
+      "dateNaissanceEtd": "2000-06-03",
+      "adresseMailEtd": "mmandyb@indiegogo.com",
+      "idGroupe": 12,
+      "idDepartement": 12,
+      "numInscription": "49a27921-733e-4c32-a798-d2bbdebfd9d5",
+      "dateInscription": "2022-01-09",
+      "au": 12,
+      "photoEtd": "http://dummyimage.com/228x100.png/ff4444/ffffff"
+    },
+    {
+      "id": 13,
+      "nomEtd": "Howey",
+      "prenomEtd": "Rowden",
+      "dateNaissanceEtd": "2001-01-17",
+      "adresseMailEtd": "hrowdenc@wunderground.com",
+      "idGroupe": 13,
+      "idDepartement": 13,
+      "numInscription": "f58a707c-b7dc-4f2c-b3e2-b3d22abc5507",
+      "dateInscription": "2022-01-09",
+      "au": 13,
+      "photoEtd": "http://dummyimage.com/192x100.png/ff4444/ffffff"
+    },
+    {
+      "id": 14,
+      "nomEtd": "Adara",
+      "prenomEtd": "Lipgens",
+      "dateNaissanceEtd": "2000-01-21",
+      "adresseMailEtd": "alipgensd@cnbc.com",
+      "idGroupe": 14,
+      "idDepartement": 14,
+      "numInscription": "0675c89f-0b21-4e2b-b91e-48406c3b9ee3",
+      "dateInscription": "2022-01-10",
+      "au": 14,
+      "photoEtd": "http://dummyimage.com/123x100.png/dddddd/000000"
+    },
+    {
+      "id": 15,
+      "nomEtd": "Demetrius",
+      "prenomEtd": "Robatham",
+      "dateNaissanceEtd": "2003-06-14",
+      "adresseMailEtd": "drobathame@topsy.com",
+      "idGroupe": 15,
+      "idDepartement": 15,
+      "numInscription": "4a2dd56d-743e-484d-a6c5-c7eecdcb3d01",
+      "dateInscription": "2022-01-09",
+      "au": 15,
+      "photoEtd": "http://dummyimage.com/131x100.png/dddddd/000000"
+    },
+    {
+      "id": 16,
+      "nomEtd": "Roseann",
+      "prenomEtd": "McKean",
+      "dateNaissanceEtd": "2000-04-19",
+      "adresseMailEtd": "rmckeanf@sohu.com",
+      "idGroupe": 16,
+      "idDepartement": 16,
+      "numInscription": "5da029cb-2d7a-4079-9ea9-b925cd7001d4",
+      "dateInscription": "2022-01-09",
+      "au": 16,
+      "photoEtd": "http://dummyimage.com/140x100.png/cc0000/ffffff"
+    },
+    {
+      "id": 17,
+      "nomEtd": "Bessy",
+      "prenomEtd": "Kremer",
+      "dateNaissanceEtd": "2000-01-17",
+      "adresseMailEtd": "bkremerg@independent.co.uk",
+      "idGroupe": 17,
+      "idDepartement": 17,
+      "numInscription": "eab05d8f-61ed-422d-ac1f-83bc0c040c36",
+      "dateInscription": "2022-01-09",
+      "au": 17,
+      "photoEtd": "http://dummyimage.com/247x100.png/5fa2dd/ffffff"
+    },
+    {
+      "id": 18,
+      "nomEtd": "Leontine",
+      "prenomEtd": "Durran",
+      "dateNaissanceEtd": "2001-11-05",
+      "adresseMailEtd": "ldurranh@dedecms.com",
+      "idGroupe": 18,
+      "idDepartement": 18,
+      "numInscription": "3c6c7f3f-fd3c-4d1a-9b63-ca6bd94dcdb9",
+      "dateInscription": "2022-01-09",
+      "au": 18,
+      "photoEtd": "http://dummyimage.com/110x100.png/dddddd/000000"
+    },
+    {
+      "id": 19,
+      "nomEtd": "Berry",
+      "prenomEtd": "Pilgrim",
+      "dateNaissanceEtd": "2005-07-17",
+      "adresseMailEtd": "bpilgrimi@linkedin.com",
+      "idGroupe": 19,
+      "idDepartement": 19,
+      "numInscription": "c6c48a4e-a3b2-44a3-9052-07593dae0091",
+      "dateInscription": "2022-01-09",
+      "au": 19,
+      "photoEtd": "http://dummyimage.com/139x100.png/ff4444/ffffff"
+    },
+    {
+      "id": 20,
+      "nomEtd": "Orrin",
+      "prenomEtd": "Washbrook",
+      "dateNaissanceEtd": "2000-07-11",
+      "adresseMailEtd": "owashbrookj@bravesites.com",
+      "idGroupe": 20,
+      "idDepartement": 20,
+      "numInscription": "feb8f4fb-810c-4298-abb0-b1eb903553fd",
+      "dateInscription": "2022-01-10",
+      "au": 20,
+      "photoEtd": "http://dummyimage.com/184x100.png/5fa2dd/ffffff"
+    }
+  ]
 }
